@@ -5,8 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.edge.options import Options
 from fastapi import FastAPI
 
-PORT = 5050
-HOST = "localhost"
+PORT = "$PORT"
+HOST = "0.0.0.0"
 
 app = FastAPI()
 
