@@ -5,8 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.edge.options import Options
 from fastapi import FastAPI
 
-PORT = "$PORT"
-HOST = "0.0.0.0"
+PORT = "8080"
+HOST = "weather-production-94ed.up.railway.app"
 
 app = FastAPI()
 
